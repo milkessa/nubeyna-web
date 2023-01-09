@@ -24,7 +24,7 @@
 
 .light-theme {
     --body-bg: rgb(255, 255, 255);
-    --heading-color: #0c123d;
+    --heading-color: #ffffff;
     --btn-secondary-bg: #816166063aff;
     --btn-primary-bg: #fff;
     --primary-color: #166063;
@@ -36,6 +36,12 @@
     --card-bg: #fff;
     --testimonial-bg: #f7f7f7;
     --team-card-bg: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -53,8 +59,8 @@ h2 {
     color: var(--heading-color)
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box
+.container {
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
 }

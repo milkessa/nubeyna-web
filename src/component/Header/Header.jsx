@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 const nav__links = [
   {
     path: "#home",
@@ -26,14 +27,13 @@ const nav__links = [
   },
 ];
 
-const header = () => {
+const Header = () => {
   return (
     <header className='header'>
       <div className='container'>
         <div className='nav__wrapper'>
           <div className='logo'>
             <h2>Nubeyna</h2>
-            <p>One-Stop IT Solution</p>
           </div>
 
           {/*====Navigation=======*/}
@@ -51,7 +51,7 @@ const header = () => {
           {/*====Light Mode=======*/}
           <div className='light__mode'>
             <span>
-              <i className='ri-sun-ine'>Light Mode</i>
+              <i className='ri-sun-line'> Light Mode</i>
             </span>
           </div>
         </div>
@@ -60,4 +60,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
