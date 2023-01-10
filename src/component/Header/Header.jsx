@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "../../styles/header.css";
 const nav__links = [
   {
     path: "#home",
@@ -51,7 +51,7 @@ const Header = () => {
           {/*====Light Mode=======*/}
           <div className='light__mode'>
             <span>
-              <i className='ri-sun-line'> Light Mode</i>
+              <i className='ri-sun-line'>Light Mode</i>
             </span>
           </div>
         </div>
