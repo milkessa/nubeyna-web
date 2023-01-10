@@ -6,12 +6,43 @@
 .hero__content,
 .hero__img {
     width: 50%;
+    max-width: 100;
 }
 
 .hero__content h2 {
     font-size: 3rem;
+    line-height: 65px;
+}
+
+.hero__content p {
+    margin-top: 40px;
+    font-size: 1.1rem;
 }
 
 .highlight {
-    color: var(--primarycolor);
+    color: var(--primary-color);
+}
+
+.hero__btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.primary__btn,
+.secondary__btn {
+    padding: 0.6rem 1.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+
+.primary__btn {
+    background: var(--btn-primary-bg);
+}
+
+.secondary__btn {
+    background: var(--btn-secondary-bg);
 }
