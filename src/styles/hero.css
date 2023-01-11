@@ -51,9 +51,10 @@
 
 .secondary__btn {
     background: var(--btn-secondary-bg);
-    border: 1px solid var(--btn-primary-bg);
+    border: 2px solid var(--btn-primary-bg);
 }
 
-.hero_section {
-    background-color: rgb(206, 206, 206);
+.hero__img {
+    margin-top: 50px;
+    margin-left: 50px;
 }

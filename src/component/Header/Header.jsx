@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/header.css";
+import logo from "../../images/logo.png";
 const nav__links = [
   {
     path: "#home",
@@ -33,7 +34,7 @@ const Header = () => {
       <div className='container'>
         <div className='nav__wrapper'>
           <div className='logo'>
-            <h2>Nubeyna</h2>
+            <img src={logo} alt='' id='img' />
           </div>
 
           {/*====Navigation=======*/}
