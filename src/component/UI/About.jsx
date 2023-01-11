@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/about.css";
+import about from "../../images/about3.jpg";
 const chooseDate = [
   {
     icon: "ri-wifi-line",
@@ -46,7 +47,9 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className='about__img'></div>
+          <div className='about__img'>
+            <img src={about} alt='' />
+          </div>
         </div>
       </div>
     </section>
