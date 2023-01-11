@@ -5,17 +5,18 @@
 /* css variables */
 
 :root {
-    --primary-color: #166063;
+    --primary-color: #2BBBBF;
+    --secondary-color: #18233F;
     --heading-color: #fff;
-    --btn-primary-bg: #166063;
-    --btn-secondary-bg: #090238;
-    --team-card-bg: #1b2352;
+    --btn-primary-bg: #2BBBBF;
+    --btn-secondary-bg: #18233F;
+    --team-card-bg: #18233F;
     --link-color: #fff;
-    --link-active: #166063;
+    --link-active: #2BBBBF;
     --card-bg: linear-gradient( 45deg, rgba(15, 18, 61, 1) 33%, rgba(15, 18, 61, 1) 52%, rgba(11, 41, 69, 1) 84%);
-    --counter-color: linear-gradient( 90deg, #166063 30%, rgba(29, 129, 176, 1) 55%, rgba(35, 93, 173, 1) 75%);
+    --counter-color: linear-gradient( 90deg, #2BBBBF 30%, rgba(29, 129, 176, 1) 55%, rgba(35, 93, 173, 1) 75%);
     --body-bg: rgba(6, 11, 26, 1);
-    --newsletter-bg: linear-gradient( 90deg, rgba(27, 9, 115, 1) 20%, rgba(23, 9, 96, 1) 38%, rgba(14, 9, 56, 1) 100%);
+    --newsletter-bg: linear-gradient( 90deg, rgb(10, 0, 58) 20%, rgba(23, 9, 96, 1) 38%, rgba(14, 9, 56, 1) 100%);
     --testimonial-bg: #1a0f4f;
     --font-name: "Roboto", sans-serif;
     --small-text-color: rgba(255, 255, 255, 0.774);
@@ -25,12 +26,12 @@
 .light-theme {
     --body-bg: rgb(255, 255, 255);
     --heading-color: #ffffff;
-    --btn-secondary-bg: #816166063aff;
+    --btn-secondary-bg: #2BBBBF;
     --btn-primary-bg: #fff;
-    --primary-color: #166063;
+    --primary-color: #2BBBBF;
     --counter-color: #fff;
-    --counter-section-bg: #166063;
-    --link-color: #0c123d;
+    --counter-section-bg: #2BBBBF;
+    --link-color: #2BBBBF;
     --link-active: #816aff --newsletter-bg: linear-gradient( 180deg, rgba(189, 243, 255, 1) 29%, rgba(193, 243, 255, 1) 50%, rgba(226, 250, 255, 1) 78%);
     --small-text-color: #000;
     --card-bg: #fff;
