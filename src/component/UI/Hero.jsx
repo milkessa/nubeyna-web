@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/hero.css";
-import pic1 from "../../images/pic1.png";
+import pic1 from "../../images/seo.gif";
 const Hero = () => {
   return (
     <section className='hero_section'>

@@ -4,22 +4,22 @@ const serviceData = [
   {
     icon: "ri-code-s-slash-line",
     title: "Web Design",
-    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, sint nesciunt facere neque alias hic! Illo fugiat obcaecati rerum voluptatum fuga!",
+    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, ",
   },
   {
     icon: "ri-smartphone-line",
     title: "App Development",
-    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, sint nesciunt facere neque alias hic! Illo fugiat obcaecati rerum voluptatum fuga!",
+    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, ",
   },
   {
     icon: "ri-landscape-line",
     title: "Graphics Design",
-    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, sint nesciunt facere neque alias hic! Illo fugiat obcaecati rerum voluptatum fuga!",
+    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, ",
   },
   {
     icon: "ri-rocket-line",
     title: "Digital Marketing",
-    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, sint nesciunt facere neque alias hic! Illo fugiat obcaecati rerum voluptatum fuga!",
+    desc: "discription: Lorem ipsum dolor sit, Dicta atque, nulla qui quod nam eum vel quidem aperiam, ",
   },
 ];
 const Services = () => {
