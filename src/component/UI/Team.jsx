@@ -30,7 +30,7 @@ const Team = () => {
       <div className='team__content'>
         <h6 className='subtitle'>Our Team</h6>
         <h2>
-          Meet with <span className='highlight'></span>
+          Meet with <span className='highlight'>our team</span>
         </h2>
       </div>
       <div className='team__wrapper'>
